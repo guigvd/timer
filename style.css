@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+
+.main{
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 55%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    background-color: rgba(31, 31, 31, 0.99);
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+}
+
+.bloco-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn p{
+    font-weight: bold;
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.start{
+    background-color: rgba(54, 186, 54, 0.4);
+    border: 2px solid rgb(54, 186, 54);
+}
+
+.start:hover{
+    box-shadow: 0px 0px 5px 1px green;
+}
+
+.pause{
+    background-color: rgba(255, 255, 0, 0.4);
+    border: 2px solid rgb(255, 255, 0);
+}
+
+.pause:hover{
+    box-shadow: 0px 0px 5px 1px yellow;
+}
+
+.stop{
+    background-color: rgba(255, 0, 0, 0.4);
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.stop:hover{
+    box-shadow: 0px 0px 5px 1px red;
+}
+
+@media screen and (max-width:768px){
+    .bloco-btn{
+        flex-direction: column;
+    }
+}
