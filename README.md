@@ -4,7 +4,7 @@
 
 Project of timer.
 
-- Objetive:
+- Objective:
 
 Study in practice JavaScript.
 
